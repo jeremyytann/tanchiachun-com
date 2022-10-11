@@ -1,0 +1,51 @@
+[selected-theme='light'] {
+    /* App */
+    --app-background-color: #fafafa;
+
+    /* Forms */
+    --form-shadow-color: #121212;
+    --form-background-color: #ffffff;
+    --form-button-color: linear-gradient(to bottom right, #c89feb, #5d69be);;
+    --form-button-text: #fafafa;
+    --form-text: #121212;
+    --form-input-border-color: #eeeeee;
+
+    /* Navbars */
+    --navbar-login-text-color: #121212;
+    --navbar-title-color: #121212;
+    --navbar-social-logo-color: #121212;
+    --subnavbar-link-color: #121212;
+
+    /* Stocks */
+    --stock-module-background-color: #ffffff;
+    --stock-module-shadow-color: #121212;
+    --stock-title-color: #121212;
+    --stock-text-color: #121212;
+}
+
+/* dark theme */
+[selected-theme='dark'] {
+    /* App */
+    --app-background-color: #121212;
+
+    /* Forms */
+    --form-shadow-color: #000000;
+    --form-background-color: #202020;
+    --form-button-color: linear-gradient(to bottom right, #c89feb, #5d69be);;
+    --form-button-text: #fafafa;
+    --form-text: #fafafa;
+    --form-input-border-color: #303030;
+
+    /* Navbars */
+    --navbar-login-text-color: #fafafa;
+    --navbar-title-color: #fafafa;
+    --navbar-social-logo-color: #fafafa;
+    --subnavbar-link-color: #fafafa;
+
+    /* Stocks */
+    --stock-module-background-color: #202020;
+    --stock-module-shadow-color: #000000;
+    --stock-module-title-text: #fafafa;
+    --stock-title-color: #fafafa;
+    --stock-text-color: #fafafa;
+}

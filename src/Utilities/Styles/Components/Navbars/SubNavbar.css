@@ -1,0 +1,27 @@
+.subnavbar-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    height: 10px;
+    width: 100vw;
+}
+
+.subnavbar-link {
+    color: var(--subnavbar-link-color);
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.subnavbar-link:hover {
+    font-weight: 750;
+}
+
+@media (max-width: 767px) {
+    .subnavbar-container {
+        display: none;
+    }
+}
