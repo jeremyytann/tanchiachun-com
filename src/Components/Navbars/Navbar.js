@@ -53,21 +53,19 @@ const Navbar = () => {
                     <Instagram onClick={() => linkSocial('instagram')} className='navbar-social-logo' />
                     <LinkedIn onClick={() => linkSocial('linkedin')} className='navbar-social-logo' />
                     <Twitter onClick={() => linkSocial('twitter')} className='navbar-social-logo' />
-                    { systemTheme === 'light' ? <DarkModeRounded onClick={() => changeTheme()} className='navbar-social-logo' /> : '' }
-                    { systemTheme === 'dark' ? <LightModeRounded onClick={() => changeTheme()} className='navbar-social-logo' /> : '' }
                 </div>
 
                 <div className='navbar-social-container-mobile'>
                     <MenuRounded onClick={() => toggleDrawer()} className='navbar-social-logo' />
-                    { systemTheme === 'light' ? <DarkModeRounded onClick={() => changeTheme()} className='navbar-social-logo' /> : '' }
-                    { systemTheme === 'dark' ? <LightModeRounded onClick={() => changeTheme()} className='navbar-social-logo' /> : '' }
                 </div>
 
                 <div className='navbar-title-container'>
                     <span onClick={() => linkPath('home')} className='navbar-title'>tanchiachun</span>
                 </div>
 
-                <div>
+                <div className='navbar-theme-container'>
+                    { systemTheme === 'light' ? <DarkModeRounded onClick={() => changeTheme()} className='navbar-theme-logo' /> : '' }
+                    { systemTheme === 'dark' ? <LightModeRounded onClick={() => changeTheme()} className='navbar-theme-logo' /> : '' }
                 </div>
             </div>
 

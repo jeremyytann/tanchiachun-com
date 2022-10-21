@@ -2,6 +2,11 @@
     /* App */
     --app-background-color: #fafafa;
 
+    /* Drawer */
+    --drawer-bg-color: #fafafa;
+    --drawer-social-logo-color: #121212;
+    --drawer-text-color: #121212;
+
     /* Forms */
     --form-shadow-color: #121212;
     --form-background-color: #ffffff;
@@ -27,6 +32,11 @@
 [selected-theme='dark'] {
     /* App */
     --app-background-color: #121212;
+
+    /* Drawer */
+    --drawer-bg-color: #121212;
+    --drawer-text-color: #fafafa;
+    --drawer-social-logo-color: #fafafa;
 
     /* Forms */
     --form-shadow-color: #000000;
