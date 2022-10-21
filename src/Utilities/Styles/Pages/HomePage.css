@@ -1,0 +1,103 @@
+.home-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: calc(768px - 30%);
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.title-text {
+    font-size: 32px;
+    color: var(--home-text-color);
+}
+
+.title-name-container {
+    margin-top: 5px;
+}
+
+.title-name-text {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--home-text-color);
+}
+
+.title-slogan-container {
+    margin-top: 30px;
+}
+
+.title-slogan-text {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--home-slogan-color);
+}
+
+.description-container {
+    margin-top: 30px;
+}
+
+.description-text {
+    font-size: 26px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    color: var(--home-text-color);
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.home-project-button {
+    padding: 12px 30px;
+    color: var(--home-project-text-start-color);
+    background-color: var(--home-project-start-color);
+    border: 1.5px solid var(--home-project-border-color);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+@keyframes home-project-button-hover {
+    from {
+        background-color: var(--home-project-start-color);
+        color: var(--home-project-text-start-color);
+    }
+
+    to {
+        background-color: var(--home-project-end-color);
+        color: var(--home-project-text-end-color);
+    }
+}
+
+.home-project-button:hover {
+    animation-name: home-project-button-hover;
+    animation-duration: 0.3s;
+    background-color: var(--home-project-end-color);
+    border: 1.5px solid var(--home-project-border-color);
+    color: var(--home-project-text-end-color);
+}
+
+@media (max-width: 767px) {
+    .home-body-container {
+        min-width: 0px;
+        margin: 80px 50px;
+    }
+
+    .title-text {
+        font-size: 24px;
+    }
+
+    .title-name-text {
+        font-size: 44px;
+    }
+
+    .title-slogan-text {
+        font-size: 32px;
+    }
+
+    .description-text {
+        font-size: 22px;
+    }
+}

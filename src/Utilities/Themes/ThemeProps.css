@@ -15,6 +15,15 @@
     --form-text: #121212;
     --form-input-border-color: #eeeeee;
 
+    /* Home */
+    --home-text-color: #121212;
+    --home-slogan-color: #454545;
+    --home-project-start-color: #fafafa;
+    --home-project-end-color: #121212;
+    --home-project-border-color: #121212;
+    --home-project-text-start-color: #121212;
+    --home-project-text-end-color: #fafafa;
+
     /* Navbars */
     --navbar-login-text-color: #121212;
     --navbar-title-color: #121212;
@@ -45,6 +54,15 @@
     --form-button-text: #fafafa;
     --form-text: #fafafa;
     --form-input-border-color: #303030;
+
+    /* Home */
+    --home-text-color: #fafafa;
+    --home-slogan-color: #808080;
+    --home-project-start-color: #121212;
+    --home-project-end-color: #fafafa;
+    --home-project-border-color: #fafafa;
+    --home-project-text-start-color: #fafafa;
+    --home-project-text-end-color: #121212;
 
     /* Navbars */
     --navbar-login-text-color: #fafafa;

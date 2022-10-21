@@ -66,24 +66,24 @@ const DrawerProvider = ({ children }) => {
                     </div>
 
                     <div className='drawer-nav-outer-container'>
-                        <div className='drawer-nav-container' onClick={() => linkPath('home')}>
-                            <span className='drawer-nav-text'>HOME</span>
+                        <div className='drawer-nav-container'>
+                            <span className='drawer-nav-text' onClick={() => linkPath('home')}>HOME</span>
                         </div>
 
-                        <div className='drawer-nav-container' onClick={() => linkPath('experience')}>
-                            <span className='drawer-nav-text'>EXPERIENCE</span>
+                        <div className='drawer-nav-container'>
+                            <span className='drawer-nav-text' onClick={() => linkPath('experience')}>EXPERIENCE</span>
                         </div>
 
-                        <div className='drawer-nav-container' onClick={() => linkPath('project')}>
-                            <span className='drawer-nav-text'>PROJECT</span>
+                        <div className='drawer-nav-container'>
+                            <span className='drawer-nav-text' onClick={() => linkPath('project')}>PROJECT</span>
                         </div>
 
-                        <div className='drawer-nav-container' onClick={() => linkPath('contact')}>
-                            <span className='drawer-nav-text'>CONTACT</span>
+                        <div className='drawer-nav-container'>
+                            <span className='drawer-nav-text' onClick={() => linkPath('contact')}>CONTACT</span>
                         </div>
 
-                        <div className='drawer-nav-container' onClick={() => linkPath('about')}>
-                            <span className='drawer-nav-text'>ABOUT</span>
+                        <div className='drawer-nav-container'>
+                            <span className='drawer-nav-text' onClick={() => linkPath('about')}>ABOUT</span>
                         </div>
 
                         <div className='drawer-nav-container'>
