@@ -9,6 +9,7 @@
 }
 
 .title-text {
+    font-family: 'Heebo', sans-serif;
     font-size: 32px;
     color: var(--home-text-color);
 }
@@ -52,7 +53,7 @@
     padding: 12px 30px;
     color: var(--home-project-text-start-color);
     background-color: var(--home-project-start-color);
-    border: 1.5px solid var(--home-project-border-color);
+    border: 2px solid var(--home-project-border-color);
     border-radius: 10px;
     cursor: pointer;
     font-weight: 300;
@@ -75,7 +76,7 @@
     animation-name: home-project-button-hover;
     animation-duration: 0.3s;
     background-color: var(--home-project-end-color);
-    border: 1.5px solid var(--home-project-border-color);
+    border: 2px solid var(--home-project-border-color);
     color: var(--home-project-text-end-color);
 }
 

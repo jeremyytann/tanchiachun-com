@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import '../../Utilities/Styles/Components/Navbars/Navbar.css'
 import { 
-    DarkModeRounded, Email, FacebookRounded, GitHub, Instagram, 
+    DarkModeRounded, FacebookRounded, GitHub, Instagram, 
     LightModeRounded, LinkedIn,
     MenuRounded, Twitter 
 } from '@mui/icons-material';
@@ -41,8 +41,6 @@ const Navbar = () => {
             window.open('https://www.linkedin.com/in/jeremyytann/', '_blank');
         } else if (social === 'twitter') {
             window.open('https://twitter.com/tanchiachun', '_blank');
-        } else if (social === 'email') {
-            window.open('mailto:jeremyyytannn.work@gmail.com');
         }
     }
 
@@ -55,7 +53,6 @@ const Navbar = () => {
                     <Instagram onClick={() => linkSocial('instagram')} className='navbar-social-logo' />
                     <LinkedIn onClick={() => linkSocial('linkedin')} className='navbar-social-logo' />
                     <Twitter onClick={() => linkSocial('twitter')} className='navbar-social-logo' />
-                    <Email onClick={() => linkSocial('email')} className='navbar-social-logo' />
                 </div>
 
                 <div className='navbar-social-container-mobile'>

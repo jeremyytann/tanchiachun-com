@@ -1,0 +1,134 @@
+.exp-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: calc(768px - 30%);
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.exp-title-container {
+    margin-bottom: 10px;
+}
+
+.exp-title-text {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--exp-title-color);
+}
+
+.exp-skill-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-skill-title-text {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--exp-skill-title-color);
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.exp-skill-description-text {
+    font-size: 26px;
+    font-weight: 300;
+    color: var(--exp-skill-desc-color);
+}
+
+.exp-work-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: calc(768px - 30%);
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.exp-work-container {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-work-title-text {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--exp-skill-title-color);
+    margin-top: 25px;
+}
+
+.exp-work-subtitle-text {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--exp-skill-subtitle-color);
+    margin-top: 10px;
+}
+
+.exp-work-period-text {
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--exp-skill-title-color);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.exp-work-description-text {
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 3px;
+    color: var(--exp-skill-desc-color);
+}
+
+.exp-work-desc-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    .exp-body-container {
+        min-width: 0px;
+        margin: 50px 50px;
+    }
+
+    .exp-work-body-container {
+        min-width: 0px;
+        margin: 50px 50px;
+    }
+    
+    .exp-title-container {
+        margin-bottom: 0px;
+    }
+
+    .exp-title-text {
+        font-size: 32px;
+    }
+
+    .exp-skill-title-text {
+        font-size: 26px;
+    }
+
+    .exp-work-title-text {
+        font-size: 26px;
+    }
+
+    .exp-work-subtitle-text {
+        font-size: 22px;
+    }
+
+    .exp-work-period-text {
+        font-size: 20px;
+    }
+
+    .exp-skill-description-text {
+        font-size: 22px;
+    }
+
+    .exp-work-description-text {
+        font-size: 22px;
+    }
+}
