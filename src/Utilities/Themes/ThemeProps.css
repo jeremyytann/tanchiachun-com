@@ -2,6 +2,11 @@
     /* App */
     --app-background-color: #fafafa;
 
+    /* Contact */
+    --contact-title-color: #454545;
+    --contact-social-logo-color: #121212;
+    --contact-social-text-color: #121212;
+
     /* Drawer */
     --drawer-bg-color: #fafafa;
     --drawer-social-logo-color: #121212;
@@ -47,6 +52,11 @@
 [selected-theme='dark'] {
     /* App */
     --app-background-color: #121212;
+
+    /* Contact */
+    --contact-title-color: #808080;
+    --contact-social-logo-color: #fafafa;
+    --contact-social-text-color: #fafafa;
 
     /* Drawer */
     --drawer-bg-color: #121212;
