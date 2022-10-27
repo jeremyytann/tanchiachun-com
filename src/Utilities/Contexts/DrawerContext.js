@@ -42,6 +42,7 @@ const DrawerProvider = ({ children }) => {
 
     const linkPath = (path) => {
         if (path === 'blog') {
+            closeDrawer();
             window.open('https://jeremyytann.github.io/', '_blank');
         } else if (path === 'home') {
             closeDrawer();
