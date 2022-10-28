@@ -2,6 +2,10 @@
     /* App */
     --app-background-color: #fafafa;
 
+    /* About */
+    --about-name-color: #121212;
+    --about-text-color: #121212;
+
     /* Contact */
     --contact-title-color: #454545;
     --contact-social-logo-color: #121212;
@@ -52,6 +56,10 @@
 [selected-theme='dark'] {
     /* App */
     --app-background-color: #121212;
+
+    /* About */
+    --about-name-color: #fafafa;
+    --about-text-color: #fafafa;
 
     /* Contact */
     --contact-title-color: #808080;

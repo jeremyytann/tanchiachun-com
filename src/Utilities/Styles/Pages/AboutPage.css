@@ -1,0 +1,93 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: calc(768px - 30%);
+    margin-top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-profile-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-profile-picture {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: grey;
+}
+
+.about-info-container {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.about-name-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.about-name-text {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--about-name-color);
+}
+
+.about-description-container {
+    margin-bottom: 20px;
+}
+
+.about-description-text {
+    font-size: 26px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    color: var(--about-text-color);
+}
+
+@media (max-width: 767px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        min-width: 0px;
+        margin: 50px;
+    }
+
+    .about-info-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about-name-container {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+
+    .about-profile-picture {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-name-text {
+        font-size: 36px;
+    }
+
+    .about-description-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .about-description-text {
+        font-size: 22px;
+    }
+}
