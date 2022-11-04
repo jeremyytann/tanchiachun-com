@@ -32,7 +32,7 @@
 }
 
 .about-name-text {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     color: var(--about-name-color);
 }
@@ -42,7 +42,7 @@
 }
 
 .about-description-text {
-    font-size: 26px;
+    font-size: 22px;
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
     color: var(--about-text-color);
@@ -79,15 +79,15 @@
     }
 
     .about-name-text {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .about-description-container {
         display: flex;
         margin-bottom: 20px;
     }
-    
+
     .about-description-text {
-        font-size: 22px;
+        font-size: 20px;
     }
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: calc(768px - 30%);
+    min-width: calc(768px - 20%);
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
@@ -13,7 +13,7 @@
 }
 
 .exp-title-text {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     color: var(--exp-title-color);
 }
@@ -24,7 +24,7 @@
 }
 
 .exp-skill-title-text {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     color: var(--exp-skill-title-color);
     margin-top: 25px;
@@ -32,9 +32,10 @@
 }
 
 .exp-skill-description-text {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 300;
     color: var(--exp-skill-desc-color);
+    line-height: 30px;
 }
 
 .exp-work-body-container {
@@ -69,7 +70,7 @@
 }
 
 .exp-work-period-text {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     color: var(--exp-skill-title-color);
     margin-top: 10px;
@@ -77,7 +78,7 @@
 }
 
 .exp-work-description-text {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 300;
     margin-bottom: 3px;
     color: var(--exp-skill-desc-color);
@@ -125,10 +126,12 @@
     }
 
     .exp-skill-description-text {
-        font-size: 22px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .exp-work-description-text {
-        font-size: 22px;
+        font-size: 20px;
+        line-height: 30px;
     }
 }

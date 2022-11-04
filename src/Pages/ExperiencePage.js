@@ -10,7 +10,7 @@ const ExperiencePage = () => {
             <div className='exp-body-container'>
                 <div className='exp-title-container'>
                     <span className='exp-title-text'>
-                        SKILLS
+                        SKILL
                     </span>
                 </div>
 
@@ -52,7 +52,7 @@ const ExperiencePage = () => {
             <div className='exp-work-body-container'>
                 <div className='exp-title-container'>
                     <span className='exp-title-text'>
-                        EXPERIENCES
+                        EXPERIENCE
                     </span>
                 </div>
 

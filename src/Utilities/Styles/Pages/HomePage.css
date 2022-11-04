@@ -10,7 +10,7 @@
 
 .title-text {
     font-family: 'Heebo', sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     color: var(--home-text-color);
 }
 
@@ -39,7 +39,7 @@
 }
 
 .description-text {
-    font-size: 26px;
+    font-size: 22px;
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
     color: var(--home-text-color);
@@ -87,7 +87,7 @@
     }
 
     .title-text {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .title-name-text {
@@ -99,6 +99,11 @@
     }
 
     .description-text {
-        font-size: 22px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .home-project-button {
+        font-size: 20px;
     }
 }
