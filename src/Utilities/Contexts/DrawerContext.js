@@ -47,6 +47,9 @@ const DrawerProvider = ({ children }) => {
         } else if (path === 'home') {
             closeDrawer();
             navigate('/');
+        } else if (path === 'resume') {
+            closeDrawer();
+            window.open('/resume.pdf', '_blank');
         } else {
             closeDrawer();
             navigate(`/${path}`);
