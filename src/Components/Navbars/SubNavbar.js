@@ -9,6 +9,8 @@ const SubNavbar = () => {
     const linkPath = (path) => {
         if (path === 'blog') {
             window.open('https://jeremyytann.github.io/', '_blank');
+        } else if (path === 'resume') {
+            window.open('/resume.pdf', '_blank');
         } else {
             navigate(`/${path}`);
         }
