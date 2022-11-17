@@ -45,6 +45,9 @@
     --navbar-social-logo-color: #121212;
     --subnavbar-link-color: #121212;
 
+    /* Projects */
+    --project-border-color: #121212;
+
     /* Stocks */
     --stock-module-background-color: #ffffff;
     --stock-module-shadow-color: #121212;
@@ -99,6 +102,9 @@
     --navbar-title-color: #fafafa;
     --navbar-social-logo-color: #fafafa;
     --subnavbar-link-color: #fafafa;
+
+    /* Projects */
+    --project-border-color: #121212;
 
     /* Stocks */
     --stock-module-background-color: #202020;

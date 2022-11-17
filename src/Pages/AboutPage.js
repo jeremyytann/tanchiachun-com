@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbars/Navbar'
 import '../Utilities/Styles/Pages/AboutPage.css'
+import aboutImg from '../Assets/About.jpg'
 
 const AboutPage = () => {
     return (
@@ -9,9 +10,7 @@ const AboutPage = () => {
 
             <div className='about-container'>
                 <div className='about-profile-container'>
-                    <div className='about-profile-picture'>
-                        
-                    </div>
+                    <img src={aboutImg} alt="profileImage" className='about-profile-picture'/>
                 </div>
 
                 <div className='about-info-container'>
