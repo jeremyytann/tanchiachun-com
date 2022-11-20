@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbars/Navbar'
 import '../Utilities/Styles/Pages/ProjectPage.css'
 import jshopImg from '../Assets/JShop.png'
 import letStudyImg from '../Assets/LetStudy.png'
+import personalWebsiteImg from '../Assets/PersonalWebsite.png'
 
 const ProjectPage = () => {
     const linkProject = (project, type) => {
@@ -38,7 +39,7 @@ const ProjectPage = () => {
                 </div>
 
                 <div className='project-item-container'>
-                    <img src={letStudyImg} alt='jshop' className='project-image-container' />
+                    <img src={personalWebsiteImg} alt='personalWebsite' className='project-image-container' />
 
                     <div className='project-info-container'>
                         <span className='project-item-title-text'>
@@ -82,7 +83,7 @@ const ProjectPage = () => {
                         </div>
                     </div>
 
-                    <img src={letStudyImg} alt='jshop' className='project-image-container-tablet' />
+                    <img src={personalWebsiteImg} alt='personalWebsite' className='project-image-container-tablet' />
 
                     <div className='project-item-link-container-tablet'>
                         <GitHub onClick={() => linkProject('personal', 'github')} className='project-item-link-logo' />
@@ -134,8 +135,8 @@ const ProjectPage = () => {
                         </div>
                     </div>
 
-                    <img src={letStudyImg} alt='jshop' className='project-image-container' />
-                    <img src={letStudyImg} alt='jshop' className='project-image-container-tablet' />
+                    <img src={letStudyImg} alt='letStudy' className='project-image-container' />
+                    <img src={letStudyImg} alt='letStudy' className='project-image-container-tablet' />
 
                     <div className='project-item-link-container-tablet'>
                         <GitHub onClick={() => linkProject('letStudy', 'github')} className='project-item-link-logo' />
