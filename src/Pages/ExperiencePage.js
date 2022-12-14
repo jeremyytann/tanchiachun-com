@@ -28,7 +28,7 @@ const ExperiencePage = () => {
                     </span>
 
                     <span className='exp-skill-description-text'>
-                        AWS, Google Cloud Functions, Google Firebase, Heroku
+                        AWS, Google Cloud, Google Firebase, Heroku
                     </span>
 
                     <span className='exp-skill-title-text'>
@@ -79,15 +79,18 @@ const ExperiencePage = () => {
 
                     <div className='exp-work-desc-container'>
                         <span className='exp-work-description-text'>
-                            - Test 1
+                            - Developed and maintained code for in-house and client websites and 
+                            applications using HTML, CSS, React, and Angular.
                         </span>
 
                         <span className='exp-work-description-text'>
-                            - Test 2
+                            - Designed and implemented CI/CD system for web 
+                            applications using GitHub Actions and Google Firebase.
                         </span>
 
                         <span className='exp-work-description-text'>
-                            - Test 3
+                            - Work with a variety of tools, languages, and frameworks such as 
+                            Bitrix24, JavaScript, Node.js, Express, Google Cloud, etc.
                         </span>
                     </div>
                 </div>
