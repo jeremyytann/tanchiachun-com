@@ -36,7 +36,7 @@ const ExperiencePage = () => {
                     </span>
 
                     <span className='exp-skill-description-text'>
-                        MongoDB
+                        MongoDB, PostgreSQL
                     </span>
 
                     <span className='exp-skill-title-text'>
@@ -44,7 +44,7 @@ const ExperiencePage = () => {
                     </span>
 
                     <span className='exp-skill-description-text'>
-                        Angular, Django, Express, Flutter, Ionic, Node.js, React, Ruby on Rails
+                        Angular, Django, Django REST, Express, Flutter, Ionic, Node.js, React, Ruby on Rails
                     </span>
 
                     <span className='exp-skill-title-text'>
@@ -52,7 +52,7 @@ const ExperiencePage = () => {
                     </span>
 
                     <span className='exp-skill-description-text'>
-                        Bitrix24, Figma, GitHub, Postman
+                        Bitrix24, Figma, GitHub, Nginx, Postman
                     </span>
                 </div>
             </div>
