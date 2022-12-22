@@ -24,35 +24,19 @@ const ExperiencePage = () => {
                     </span>
 
                     <span className='exp-skill-title-text'>
-                        Clouds
+                        Clouds & Databases
                     </span>
 
                     <span className='exp-skill-description-text'>
-                        AWS, Google Cloud, Google Firebase, Heroku
+                        AWS, Google Cloud, Heroku, Django REST, Firebase, MongoDB, PostgreSQL
                     </span>
 
                     <span className='exp-skill-title-text'>
-                        Databases
+                        Frameworks & Tools
                     </span>
 
                     <span className='exp-skill-description-text'>
-                        MongoDB, PostgreSQL
-                    </span>
-
-                    <span className='exp-skill-title-text'>
-                        Frameworks
-                    </span>
-
-                    <span className='exp-skill-description-text'>
-                        Angular, Django, Django REST, Express, Flutter, Ionic, Node.js, React, Ruby on Rails
-                    </span>
-
-                    <span className='exp-skill-title-text'>
-                        Tools
-                    </span>
-
-                    <span className='exp-skill-description-text'>
-                        Bitrix24, Figma, GitHub, Nginx, Postman
+                        React, Angular, Ionic, Vue, Nuxt.js, Node.js, Express, Django, Ruby on Rails, Flutter, Bitrix24, Figma, GitHub, Nginx, Postman
                     </span>
                 </div>
             </div>
