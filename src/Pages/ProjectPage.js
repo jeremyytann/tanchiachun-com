@@ -17,8 +17,6 @@ const ProjectPage = () => {
         } else if (project === 'letStudy') {
             if (type === 'github') {
                 window.open('https://github.com/jeremyytann/BUAA-SE-LetStudy', '_blank');
-            } else if (type === 'link') {
-                window.open('http://54.179.228.155');
             }
         } else if (project === 'jShop') {
             if (type === 'github') {
@@ -122,14 +120,6 @@ const ProjectPage = () => {
 
                                 <span className='project-item-link-text'>
                                     GitHub
-                                </span>
-                            </div>
-                            
-                            <div onClick={() => linkProject('letStudy', 'link')} className='project-item-link-stack'>
-                                <OpenInNewRounded className='project-item-link-logo' />
-
-                                <span className='project-item-link-text'>
-                                    Link
                                 </span>
                             </div>
                         </div>

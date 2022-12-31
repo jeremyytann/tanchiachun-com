@@ -129,7 +129,7 @@
 
     .project-item-container {
         height: auto;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     
     .project-item-title-text {
@@ -163,6 +163,10 @@
 
     .project-image-container-tablet {
         display: none;
+    }
+
+    .project-item-stack {
+        font-size: 15px;
     }
 }
 
@@ -276,9 +280,7 @@
         color: var(--exp-skill-title-color);
         border-radius: 10px;
         padding: 5px 10px;
-
         font-size: 16px;
-
         margin-right: 10px;
     }
 
