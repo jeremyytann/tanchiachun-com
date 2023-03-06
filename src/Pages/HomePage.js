@@ -36,7 +36,7 @@ const HomePage = () => {
                 <div className='description-container'>
                     <span className='description-text'>
                         I am a final year student at <strong>Beihang University</strong> in China pursuing a 
-                        Bachelor of Computer Science and Technology. Currently, I work in <strong>FusionETA</strong> as an intern.
+                        Bachelor of Computer Science and Technology.
                     </span>
                 </div>
 

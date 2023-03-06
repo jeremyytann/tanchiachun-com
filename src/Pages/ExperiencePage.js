@@ -58,7 +58,7 @@ const ExperiencePage = () => {
                     </span>
 
                     <span className='exp-work-period-text'>
-                        August 2022 - Present
+                        August 2022 - January 2023
                     </span>
 
                     <div className='exp-work-desc-container'>

@@ -130,8 +130,6 @@ const ProjectPage = () => {
 
                     <div className='project-item-link-container-tablet'>
                         <GitHub onClick={() => linkProject('letStudy', 'github')} className='project-item-link-logo' />
-                        
-                        <OpenInNewRounded onClick={() => linkProject('letStudy', 'link')} className='project-item-link-logo' />
                     </div>
                 </div>
 
